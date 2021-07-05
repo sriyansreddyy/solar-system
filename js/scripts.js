@@ -8,7 +8,7 @@ $(window).load(function(){
     body.removeClass('view-2D opening').addClass("view-3D").delay(2000).queue(function() {
       $(this).removeClass('hide-UI').addClass("set-speed");
       $(this).dequeue();
-    });
+    }); 
   };
 
   var setView = function(view) { universe.removeClass().addClass(view); };
